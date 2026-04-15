@@ -151,6 +151,7 @@ Replit screenshots were included to document the redesign and development proces
 
 These screenshots help illustrate how design decisions were implemented and refined throughout the project.
 <img width="891" height="677" alt="image" src="https://github.com/user-attachments/assets/1ccc8052-6d6c-44eb-a7ce-8a9368e2a54f" />
+<img width="910" height="753" alt="image" src="https://github.com/user-attachments/assets/82e80d42-0292-48ac-9379-cd11ef237b45" />
 
 ---
 
