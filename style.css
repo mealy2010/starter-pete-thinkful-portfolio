@@ -97,3 +97,32 @@ h3 {
   margin-top: 10px;
   padding-left: 20px;
 }
+/* ABOUT LAYOUT */
+.about-group {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* TEXT SIDE */
+.about-text {
+  max-width: 300px;
+  text-align: center; /* centers everything under "Hi I'm Pete" */
+}
+
+/* CONTACT SECTION FIX */
+#contact {
+  text-align: center;
+}
+
+.contact-intro {
+  text-align: center;
+}
+
+/* LEFT align list under sentence */
+#contact ol {
+  display: inline-block;
+  text-align: left;
+  padding-left: 20px;
+}
