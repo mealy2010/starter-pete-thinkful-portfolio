@@ -10,7 +10,6 @@ body {
   line-height: 1.5;
 }
 
-/* Main page width */
 header,
 main,
 footer {
@@ -18,7 +17,6 @@ footer {
   margin: 0 auto;
 }
 
-/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -50,7 +48,6 @@ a:active {
   color: #f77f00;
 }
 
-/* Sections */
 section {
   padding: 28px 0;
 }
@@ -67,7 +64,7 @@ h3 {
   color: #083b5c;
 }
 
-/* About */
+/* ABOUT */
 .about-group {
   display: flex;
   justify-content: center;
@@ -91,11 +88,13 @@ h3 {
 
 .about-text {
   width: 360px;
+  text-align: left;
 }
 
 .about-text h3 {
   font-size: 24px;
   margin-bottom: 18px;
+  text-align: center;
 }
 
 .about-text p,
@@ -176,8 +175,8 @@ hr {
 }
 
 #contact ol {
-  display: inline-block;
-  margin: 0;
+  width: 160px;
+  margin: 0 auto;
   padding-left: 20px;
   text-align: left;
 }
