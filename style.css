@@ -1,7 +1,7 @@
 /* Page */
 body {
   margin: 0;
-  background: #e7e1b5;
+  background: #eae2b7; /* rubric color */
   color: #0e3b5c;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
@@ -16,6 +16,7 @@ body {
 /* Header */
 header {
   padding: 28px 0 10px;
+  text-align: center;
 }
 
 .header-wrapper {
@@ -27,21 +28,19 @@ header {
 header h1 {
   margin: 0;
   font-size: 30px;
-  font-weight: 400;
 }
 
-/* ===== NAVIGATION (UPDATED WITH HOVER) ===== */
+/* NAVIGATION (Rubric-compliant hover) */
 nav a {
-  color: #d55c58;
+  color: #d62828;
   margin-left: 18px;
   font-size: 14px;
   text-decoration: none;
-  transition: 0.3s ease; /* smooth hover */
+  transition: 0.3s ease;
 }
 
 nav a:hover {
-  color: #0e3b5c;
-  text-decoration: underline;
+  color: #f77f00; /* required hover color */
 }
 
 /* Main */
@@ -56,7 +55,6 @@ section {
 h2,
 h3 {
   font-family: Georgia, "Times New Roman", serif;
-  color: #0e3b5c;
 }
 
 h2 {
@@ -67,66 +65,33 @@ h2 {
 
 h3 {
   font-size: 34px;
-  margin-top: 0;
 }
 
 /* About */
 .about-row {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
   gap: 60px;
-  margin-bottom: 60px;
 }
 
 .image-circle {
   width: 380px;
   height: 380px;
-  object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #0e3b5c;
-  flex-shrink: 0;
+  border: 2px solid #003049; /* rubric requirement */
+  object-fit: cover;
 }
 
 .about-text {
   flex: 1;
   text-align: left;
-  padding-top: 10px;
 }
 
 .about-text h3 {
   text-align: center;
-  margin-bottom: 28px;
-}
-
-.about-text p,
-.about-text ul,
-.about-text li {
-  text-align: left;
-  font-size: 22px;
-  margin-bottom: 24px;
 }
 
 .about-text ul {
   padding-left: 40px;
-  list-style-position: outside;
-  margin-top: 0;
-}
-
-.about-text a {
-  color: #d55c58;
-}
-
-.background-heading {
-  text-align: center;
-  font-size: 34px;
-  margin: 10px 0 25px;
-}
-
-#about > p {
-  font-size: 22px;
-  margin-bottom: 26px;
-  text-align: left;
 }
 
 /* Portfolio */
@@ -136,7 +101,6 @@ h3 {
 
 .portfolio-row {
   display: flex;
-  justify-content: space-between;
   gap: 20px;
 }
 
@@ -144,102 +108,48 @@ h3 {
   width: 31%;
 }
 
-#portfolio article h3 {
-  font-size: 34px;
-  margin-bottom: 18px;
-}
-
-#portfolio article img {
+#portfolio img {
   width: 100%;
   height: 380px;
   object-fit: cover;
-  display: block;
-  margin-bottom: 20px;
 }
 
-#portfolio article p {
-  font-size: 20px;
-  margin: 0 auto;
-}
+/* ===== CONTACT (FINAL CORRECT VERSION) ===== */
 
-/* Contact */
 #contact {
   text-align: center;
 }
 
+/* Center the block but keep text left-aligned inside */
 #contact p,
 #contact ol {
   display: inline-block;
   text-align: left;
 }
 
+/* spacing */
 #contact p {
-  font-size: 20px;
   margin-bottom: 10px;
 }
 
 #contact ol {
   padding-left: 25px;
   margin: 0;
-  font-size: 20px;
 }
 
-#contact li {
-  margin-bottom: 4px;
-}
-
+/* links */
 #contact a {
-  color: purple;
+  color: #d62828;
 }
 
 /* Divider */
 hr {
   border: 0;
-  border-top: 3px solid #3d3d3d;
-  margin: 55px 0;
+  border-top: 2px solid #333;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  padding: 30px 0 45px;
-  font-size: 20px;
-}
-
-/* Responsive */
-@media (max-width: 900px) {
-  .about-row {
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-  }
-
-  .image-circle {
-    width: 280px;
-    height: 280px;
-  }
-
-  .about-text {
-    width: 100%;
-  }
-
-  .portfolio-row {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #portfolio article {
-    width: 100%;
-    max-width: 420px;
-    margin-bottom: 30px;
-  }
-
-  .header-wrapper {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  nav a {
-    margin: 0 10px;
-  }
+  padding: 30px 0;
 }
