@@ -1,4 +1,5 @@
-/* Page */
+
+ /* Page */
 body {
   margin: 0;
   background: #e7e1b5;
@@ -155,10 +156,19 @@ h3 {
   margin: 0 auto;
 }
 
-/* ===== CONTACT (ONLY FIX APPLIED) ===== */
+/* ===== CONTACT (FINAL CORRECT FIX) ===== */
 
 #contact {
   text-align: center;
+}
+
+/* THIS creates the centered left-aligned block */
+#contact p,
+#contact ol {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 #contact p {
@@ -166,12 +176,9 @@ h3 {
   margin-bottom: 18px;
 }
 
-/* FIXED: matches your image exactly */
 #contact ol {
-  display: inline-block;
-  text-align: left;
-  margin: 0;
   padding-left: 25px;
+  margin-top: 0;
   font-size: 20px;
 }
 
