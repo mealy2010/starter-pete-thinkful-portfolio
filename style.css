@@ -63,7 +63,8 @@ h3 {
   margin-top: 0;
 }
 
-/* About */
+/* ===== ABOUT ===== */
+
 .about-row {
   display: flex;
   align-items: flex-start;
@@ -81,24 +82,30 @@ h3 {
   flex-shrink: 0;
 }
 
+/* 🔥 FIX HERE */
 .about-text {
   flex: 1;
-  text-align: left;
+  text-align: center; /* FIXED */
 }
 
+/* keep heading centered */
 .about-text h3 {
   text-align: center;
   margin-bottom: 20px;
 }
 
+/* center paragraphs + list */
 .about-text p,
 .about-text ul {
   font-size: 22px;
   margin-bottom: 24px;
+  text-align: center; /* FIXED */
 }
 
+/* keep bullets centered visually */
 .about-text ul {
-  padding-left: 40px;
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 .about-text a {
@@ -114,9 +121,11 @@ h3 {
 #about > p {
   font-size: 22px;
   margin-bottom: 26px;
+  text-align: center;
 }
 
-/* Portfolio */
+/* ===== PORTFOLIO ===== */
+
 #portfolio {
   text-align: center;
 }
@@ -149,7 +158,8 @@ h3 {
   margin: 0 auto;
 }
 
-/* Contact */
+/* ===== CONTACT ===== */
+
 #contact {
   text-align: center;
 }
@@ -186,7 +196,8 @@ footer {
   font-size: 20px;
 }
 
-/* Responsive */
+/* ===== RESPONSIVE ===== */
+
 @media (max-width: 900px) {
   .about-row {
     flex-direction: column;
