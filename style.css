@@ -93,13 +93,17 @@ h3 {
 }
 
 .about-text p,
-.about-text ul {
+.about-text ul,
+.about-text li {
+  text-align: left;
   font-size: 22px;
   margin-bottom: 24px;
 }
 
 .about-text ul {
   padding-left: 40px;
+  list-style-position: outside;
+  margin-top: 0;
 }
 
 .about-text a {
