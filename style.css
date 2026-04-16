@@ -30,11 +30,18 @@ header h1 {
   font-weight: 400;
 }
 
+/* ===== NAVIGATION (UPDATED WITH HOVER) ===== */
 nav a {
   color: #d55c58;
   margin-left: 18px;
   font-size: 14px;
   text-decoration: none;
+  transition: 0.3s ease; /* smooth hover */
+}
+
+nav a:hover {
+  color: #0e3b5c;
+  text-decoration: underline;
 }
 
 /* Main */
@@ -155,20 +162,17 @@ h3 {
   margin: 0 auto;
 }
 
-/* ===== CONTACT (FINAL PERFECT MATCH) ===== */
-
+/* Contact */
 #contact {
   text-align: center;
 }
 
-/* This creates a centered block that is left-aligned internally */
 #contact p,
 #contact ol {
   display: inline-block;
   text-align: left;
 }
 
-/* spacing */
 #contact p {
   font-size: 20px;
   margin-bottom: 10px;
@@ -239,4 +243,3 @@ footer {
     margin: 0 10px;
   }
 }
-
