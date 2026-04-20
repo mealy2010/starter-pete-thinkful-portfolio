@@ -7,7 +7,7 @@ body {
   line-height: 1.6;
 }
 
-/* Content text = 14px */
+/* ===== CONTENT TEXT = 14px ===== */
 p,
 li,
 a {
@@ -37,6 +37,7 @@ header h1 {
   font-weight: 400;
 }
 
+/* Navigation */
 nav a {
   color: #d55c58;
   margin-left: 18px;
@@ -58,7 +59,7 @@ section {
   margin-bottom: 50px;
 }
 
-/* Headings stay larger */
+/* Headings */
 h2,
 h3 {
   font-family: Georgia, "Times New Roman", serif;
@@ -76,7 +77,7 @@ h3 {
   margin-top: 0;
 }
 
-/* About */
+/* ===== ABOUT ===== */
 .about-row {
   display: flex;
   align-items: flex-start;
@@ -98,6 +99,7 @@ h3 {
   text-align: left;
 }
 
+/* Keep "Hi! I'm Pete" centered */
 .about-text h3 {
   text-align: center;
 }
@@ -106,7 +108,12 @@ h3 {
   padding-left: 40px;
 }
 
-/* Portfolio */
+/* ✅ FIX: Center "Pete's Background" */
+.background-heading {
+  text-align: center;
+}
+
+/* ===== PORTFOLIO ===== */
 #portfolio {
   text-align: center;
 }
@@ -131,7 +138,7 @@ h3 {
   text-align: left;
 }
 
-/* Contact */
+/* ===== CONTACT ===== */
 #contact {
   text-align: center;
 }
