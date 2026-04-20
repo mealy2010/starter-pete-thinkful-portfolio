@@ -7,14 +7,13 @@ body {
   line-height: 1.6;
 }
 
-/* ===== CONTENT TEXT = 14px ===== */
+/* Content text = 14px */
 p,
 li,
 a {
   font-size: 14px;
 }
 
-/* Wrapper */
 .wrapper {
   width: 90%;
   max-width: 1080px;
@@ -34,11 +33,10 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 30px; /* keep larger */
+  font-size: 30px;
   font-weight: 400;
 }
 
-/* Navigation */
 nav a {
   color: #d55c58;
   margin-left: 18px;
@@ -60,10 +58,11 @@ section {
   margin-bottom: 50px;
 }
 
-/* Headings (KEEP LARGE) */
+/* Headings stay larger */
 h2,
 h3 {
   font-family: Georgia, "Times New Roman", serif;
+  color: #0e3b5c;
 }
 
 h2 {
